@@ -2,4 +2,7 @@
     <string name="app_name">AndroidStudyJamTwhk2021</string>
     <string name="happy_birthday_text">Happy Birthday, Tammy!</string>
     <string name="signature_text">From Jacky.</string>
+    <string name="happy_birthday">Happy Birthday</string>
+    <string name="dice_roller">Dice Roller</string>
+    <string name="roll">Roll</string>
 </resources>
