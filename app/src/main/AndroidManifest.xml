@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidStudyJamTwhk2021">
-        <activity android:name=".TipTimeActivity"></activity>
+        <activity android:name=".AffirmationsActivity"></activity>
+        <activity android:name=".TipTimeActivity" />
         <activity android:name=".DiceRollerActivity" />
         <activity android:name=".HappyBirthdayActivity" />
         <activity android:name=".MainActivity">

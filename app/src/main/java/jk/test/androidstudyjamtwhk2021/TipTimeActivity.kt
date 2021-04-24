@@ -16,6 +16,8 @@ class TipTimeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = resources.getString(R.string.tip_time)
+
         binding = ActivityTipTimeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

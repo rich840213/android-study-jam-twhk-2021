@@ -21,5 +21,9 @@ class MainActivity : AppCompatActivity() {
         btn_tip_time.setOnClickListener {
             startActivity(Intent(this, TipTimeActivity::class.java))
         }
+
+        btn_affirmations.setOnClickListener {
+            startActivity(Intent(this, AffirmationsActivity::class.java))
+        }
     }
 }
