@@ -17,5 +17,9 @@ class MainActivity : AppCompatActivity() {
         btn_dice_roll.setOnClickListener {
             startActivity(Intent(this, DiceRollerActivity::class.java))
         }
+
+        btn_tip_time.setOnClickListener {
+            startActivity(Intent(this, TipTimeActivity::class.java))
+        }
     }
 }
