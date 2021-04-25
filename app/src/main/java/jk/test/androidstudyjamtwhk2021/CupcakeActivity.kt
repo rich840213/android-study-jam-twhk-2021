@@ -6,13 +6,12 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
 
-class NavigationActivity : AppCompatActivity() {
+class CupcakeActivity : AppCompatActivity(R.layout.activity_cupcake) {
 
     private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cupcake)
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_cupcake_host_fragment) as NavHostFragment

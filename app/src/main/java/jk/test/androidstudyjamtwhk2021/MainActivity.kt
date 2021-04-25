@@ -33,5 +33,9 @@ class MainActivity : AppCompatActivity() {
         btn_unscramble.setOnClickListener {
             startActivity(Intent(this, UnscrambleActivity::class.java))
         }
+
+        btn_cupcake.setOnClickListener {
+            startActivity(Intent(this, CupcakeActivity::class.java))
+        }
     }
 }
