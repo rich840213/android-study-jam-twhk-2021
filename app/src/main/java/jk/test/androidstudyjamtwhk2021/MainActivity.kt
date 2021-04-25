@@ -25,5 +25,9 @@ class MainActivity : AppCompatActivity() {
         btn_affirmations.setOnClickListener {
             startActivity(Intent(this, AffirmationsActivity::class.java))
         }
+
+        btn_navigation.setOnClickListener {
+            startActivity(Intent(this, NavigationActivity::class.java))
+        }
     }
 }
