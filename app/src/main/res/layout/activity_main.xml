@@ -12,7 +12,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/happy_birthday"
-        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +24,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/dice_roller"
-        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_happy_birthday" />
@@ -38,7 +36,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/tip_time"
-        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_dice_roll" />
@@ -51,7 +48,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/affirmations"
-        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_tip_time" />
@@ -64,9 +60,20 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/navigation"
-        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_affirmations" />
+
+    <Button
+        android:id="@+id/btn_unscramble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/unscramble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

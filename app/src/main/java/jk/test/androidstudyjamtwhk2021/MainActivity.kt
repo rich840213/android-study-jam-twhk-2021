@@ -29,5 +29,9 @@ class MainActivity : AppCompatActivity() {
         btn_navigation.setOnClickListener {
             startActivity(Intent(this, NavigationActivity::class.java))
         }
+
+        btn_unscramble.setOnClickListener {
+            startActivity(Intent(this, UnscrambleActivity::class.java))
+        }
     }
 }
